@@ -10,12 +10,15 @@ namespace EmpWageUsingOops
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Choose option 1.Checkattendence");
+            Console.WriteLine("Choose option 1.Checkattendence \t 2.Dailywage");
             int option = Convert.ToInt32(Console.ReadLine());
             switch(option)
             {
                 case 1:
                     PresentAndAbsent.CheckAttendence();
+                    break;
+                case 2:
+                    DailyWage.CalculateDailyWage();
                     break;
             }
             Console.ReadLine();
