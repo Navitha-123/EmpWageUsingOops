@@ -50,6 +50,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="MonthWages.cs" />
+    <Compile Include="RefactorCode.cs" />
     <Compile Include="WagesForMonthUsingWhileLoop.cs" />
   </ItemGroup>
   <ItemGroup>
