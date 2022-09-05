@@ -10,7 +10,7 @@ namespace EmpWageUsingOops
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Choose option 1.Checkattendence \t 2.Dailywage \t 3.Parttimewage \t 4.Empdailywage \t 5.wageformonth");
+            Console.WriteLine("Choose option 1.Checkattendence \t 2.Dailywage \t 3.Parttimewage \t 4.Empdailywage \t 5.wageformonth \t 6.Wages for month using whileloop");
             int option = Convert.ToInt32(Console.ReadLine());
             switch(option)
             {
@@ -27,7 +27,10 @@ namespace EmpWageUsingOops
                     EmpSwitchCase.CalculateDailyWageswitch();
                     break;
                 case 5:
-                    WagesForMonth.CalculateWageForMonth();
+                    MonthWages.CalculateWageForMonth();
+                    break;
+                case 6:
+                    WagesForMonthUsingWhileLoop.CalculateWage();
                     break;
             }
             Console.ReadLine();
