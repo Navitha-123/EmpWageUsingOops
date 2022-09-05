@@ -10,7 +10,7 @@ namespace EmpWageUsingOops
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Choose option 1.Checkattendence \t 2.Dailywage");
+            Console.WriteLine("Choose option 1.Checkattendence \t 2.Dailywage \t 3.Parttimewage");
             int option = Convert.ToInt32(Console.ReadLine());
             switch(option)
             {
@@ -19,6 +19,9 @@ namespace EmpWageUsingOops
                     break;
                 case 2:
                     DailyWage.CalculateDailyWage();
+                    break;
+                case 3:
+                    ParttimeWage.CalculatePercentage();
                     break;
             }
             Console.ReadLine();
