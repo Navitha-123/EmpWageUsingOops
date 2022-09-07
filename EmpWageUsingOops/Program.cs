@@ -10,7 +10,7 @@ namespace EmpWageUsingOops
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Choose option 1.Checkattendence \t 2.Dailywage \t 3.Parttimewage \t 4.Empdailywage \t 5.wageformonth \t 6.Wages for month using whileloop \t 7.Refactorcode");
+            Console.WriteLine("Choose option 1.Checkattendence \t 2.Dailywage \t 3.Parttimewage \t 4.Empdailywage \t 5.wageformonth \t 6.Wages for month using whileloop \t 7.Refactorcode \t 8.EmpComapanywage");
             int option = Convert.ToInt32(Console.ReadLine());
             switch(option)
             {
@@ -34,6 +34,11 @@ namespace EmpWageUsingOops
                     break;
                 case 7:
                     RefactorCode.ComputEmpWage();
+                    break;
+                case 8:
+                    EmpComputCompanyWages.CompanyWages("Jio mart", 30, 89, 90);
+                    EmpComputCompanyWages.CompanyWages("Reliance", 56, 78, 89);
+                    EmpComputCompanyWages.CompanyWages("BigBasket", 15, 45, 78);
                     break;
                 default:
                     Console.WriteLine("Enter wrong choice");
