@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using static EmpWageUsingOops.CompanyEmpWageBuilderArrayUC11;
+using static EmpWageUsingOops.EmpWageBuilderArrayUC11;
 
 namespace EmpWageUsingOops
 {
@@ -63,8 +63,8 @@ namespace EmpWageUsingOops
                     break;
                  
                 case 13:
-                    TotalWageUC13 totalwage1 = new TotalWageUC13("Realiance", 45, 20, 15,30);
-                    TotalWageUC13 totalWage2 = new TotalWageUC13("jio mart", 45, 30, 15,30);
+                    DailyAndTotalWageUC13 totalwage1 = new DailyAndTotalWageUC13("Realiance", 45, 20, 15,30);
+                    DailyAndTotalWageUC13 totalWage2 = new DailyAndTotalWageUC13("jio mart", 45, 30, 15,30);
                     totalwage1.computeEmpWage();
                     totalWage2.computeEmpWage();
                     break;
