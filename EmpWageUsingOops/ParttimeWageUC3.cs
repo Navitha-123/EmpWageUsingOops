@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EmpWageUsingOops
 {
-    internal class ParttimeWage
+    internal class ParttimeWageUC3
     {
         public static void CalculatePercentage()
         {

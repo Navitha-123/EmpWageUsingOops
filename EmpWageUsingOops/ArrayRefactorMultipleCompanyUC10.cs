@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace EmpWageUsingOops
 {
-    public class ArrayRefactorMultipleCompany
+    public class ArrayRefactorMultipleCompanyUC10
     {
         public const int IS_PART_TIME = 1;
         public const int IS_FULL_TIME = 2;
@@ -15,7 +15,7 @@ namespace EmpWageUsingOops
         private int numOfCompany = 0;
         private CompanyEmpWage[] companyEmpWageArray;
 
-        public ArrayRefactorMultipleCompany()
+        public ArrayRefactorMultipleCompanyUC10()
         {
             this.companyEmpWageArray = new CompanyEmpWage[5];
         }

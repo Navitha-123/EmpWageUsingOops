@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EmpWageUsingOops
 {
-    internal class PresentAndAbsent
+    internal class PresentAndAbsentUC1
     {
         public static void CheckAttendence()
         {

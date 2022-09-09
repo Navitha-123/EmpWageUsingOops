@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EmpWageUsingOops
 {
-    internal class WagesForMonthUsingWhileLoop
+    internal class WagesForMonthUsingWhileLoopUC6
     {
        
             public const int IS_PART_TIME = 1;

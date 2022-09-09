@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EmpWageUsingOops
 {
-    internal class MonthWages
+    internal class MonthWagesUC5
     {
         public static void CalculateWageForMonth()
         {

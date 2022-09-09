@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>EmpWageUsingOops.Program</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -43,17 +46,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ArrayRefactorMultipleCompany.cs" />
-    <Compile Include="DailyWage.cs" />
-    <Compile Include="EmpComputCompanyWages.cs" />
-    <Compile Include="EmpSwitchCase.cs" />
-    <Compile Include="ParttimeWage.cs" />
-    <Compile Include="PresentAndAbsent.cs" />
+    <Compile Include="ArrayRefactorMultipleCompanyUC10.cs" />
+    <Compile Include="CompanyEmpWageBuilderArrayUC11.cs" />
+    <Compile Include="DailyWageUC2.cs" />
+    <Compile Include="EmpComputCompanyWagesUC8.cs" />
+    <Compile Include="EmpSwitchCaseUC4.cs" />
+    <Compile Include="FinalUc14.cs" />
+    <Compile Include="ParttimeWageUC3.cs" />
+    <Compile Include="PresentAndAbsentUC1.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="MonthWages.cs" />
-    <Compile Include="RefactorCode.cs" />
-    <Compile Include="WagesForMonthUsingWhileLoop.cs" />
+    <Compile Include="MonthWagesUC5.cs" />
+    <Compile Include="RefactorCodeUC7.cs" />
+    <Compile Include="ToatalWageEachComapnyUC9.cs" />
+    <Compile Include="TotalWageUC13.cs" />
+    <Compile Include="WagesForMonthUsingWhileLoopUC6.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

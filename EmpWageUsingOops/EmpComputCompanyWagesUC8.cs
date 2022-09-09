@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EmpWageUsingOops
 {
-    internal class EmpComputCompanyWages
+    public class EmpComputCompanyWagesUC8
     {
         public const int IS_PART_TIME = 1;
         public const int IS_FULL_TIME = 2;
